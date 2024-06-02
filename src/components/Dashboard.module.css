@@ -1,0 +1,49 @@
+.layout {
+  display: flex;
+  justify-content: space-around;
+  width: 70rem;
+  margin-left: 45rem;
+  margin-top: 2.5rem;
+}
+
+.appointment {
+  height: 100%;
+  width: 70rem;
+  background-color: var(--color-primary-dark);
+  margin: 2rem 0 0 46rem;
+}
+
+.appoint__header {
+  height: 8rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-primary-light);
+}
+
+.appoint__heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-primary-dark-2);
+  margin: 2rem 0 0 1.5rem;
+}
+
+.appoint__button {
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 5rem;
+  width: 20rem;
+  border: none;
+  margin: 1.5rem 2rem 0 0;
+  border-radius: 25px;
+  background-color: var(--color-primary-dark);
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

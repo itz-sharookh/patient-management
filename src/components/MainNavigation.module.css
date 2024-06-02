@@ -1,0 +1,48 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--color-primary-light-2);
+  font-family: Inter, sans-serif;
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+}
+
+.home {
+  font-size: 2rem;
+  font-weight: 500;
+  display: inline;
+  color: var(--color-primary-dark);
+}
+
+.home:hover {
+  color: var(--color-primary-800);
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.auth {
+  font-size: 2rem;
+  color: var(--color-primary-dark);
+  margin: 1.2rem;
+}

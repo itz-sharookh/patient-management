@@ -1,0 +1,43 @@
+.profile {
+  position: absolute;
+  height: 33rem;
+  width: 26rem;
+  background-color: var(--color-primary-light);
+  overflow: unset;
+  margin: 0 0 0 17rem;
+}
+
+.profile__image {
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 2rem 0 0 5rem;
+}
+
+.profile__name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem 0 0 0;
+
+  text-align: center;
+}
+
+.profile__mail {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile__id {
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* margin: 0 0 0 2rem; */
+  text-align: center;
+}
+
+.profile__span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}

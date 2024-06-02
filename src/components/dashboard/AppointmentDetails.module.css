@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 60rem;
+  position: relative;
+  height: 8rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow-light);
+  margin: 0 0 2rem 2rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-primary-dark-2);
+  margin: 0 0 0 1.5rem;
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0 1.5rem;
+}
+
+.time {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0 1.5rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  height: 5rem;
+  width: 6rem;
+  margin: 1rem 1.2rem 0 0;
+  border: none;
+  border-radius: 25px;
+  color: var(--color-primary-light-2);
+  background-color: var(--color-primary-dark);
+  cursor: pointer;
+}
